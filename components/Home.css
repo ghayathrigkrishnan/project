@@ -1,0 +1,87 @@
+.home-container {
+  background-image: url('/ackground1.svg'); /* 👈 image placed inside public/ folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.heading-container {
+  margin-bottom: 30px;
+}
+
+.college-name {
+  font-size: 4rem;
+  color: #000000;  /* Color for college name */
+}
+
+.presents {
+  color: #0c0404; /* Change to any color you like */
+  font-weight: 500;
+  font-style: oblique;
+  font-size: 1.5rem;
+}
+
+.event-name {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #000000;  /* Emphasized color for event name */
+}
+
+.button-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.custom-button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #e68900;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.event-card {
+  background-color: #333;
+  color: white;
+}
+
+.event-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.event-date, .event-description {
+  font-size: 1rem;
+}
+
+.read-more-button {
+  margin-top: 10px;
+  background-color: #ff5722;
+  color: white;
+}
+
+.read-more-button:hover {
+  background-color: #e64a19;
+}
